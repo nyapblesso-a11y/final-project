@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 6px;
+  color: bisque;
+  background-color: #3a3939;
+  height: 5vh;
+}
+
+#aside {
+  width: 10rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 3rem;
+  background-color: grey;
+}
+
+.side-bar h1 {
+  margin-top: 6rem;
+  font-weight: 400;
+  color: bisque;
+}
+
+.side ul li {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+ 
+.side ul li {
+  list-style: none;
+}
+
+.side ul li a {
+  text-decoration: none;
+  font-weight: 200;
+  color: #423c3c;
+}
+
+.side ul li:hover {
+  text-decoration: underline;
+  color: #000;
+}
